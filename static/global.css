@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: color 0.2s ease-in-out;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.8;
+	background: #fcfcfc;
+	color: #3f3e3c;
+	-webkit-scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	max-width: 100vw;
+}
+
+button {
+	cursor: pointer;
+	border: 1px #3f3e3c solid;
+	border-radius: 0.5rem;
+	background: #3f3e3c;
+	color: #fcfcfc;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.25rem 0.75rem;
+}
+
+a, a:visited, a:link {
+	font-weight: 400;
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 3rem;
+}
+
+input {
+	border: 1px #d6d9dc solid;
+	padding: 0.5rem;
+}
