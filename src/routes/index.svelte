@@ -1,1 +1,5 @@
-<h1>DPS Calculator</h1>
+<script>
+    import Loadout from '../components/Loadout.svelte'
+</script>
+
+<Loadout />

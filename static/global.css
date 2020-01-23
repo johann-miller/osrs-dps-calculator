@@ -22,7 +22,7 @@ body {
 button {
 	cursor: pointer;
 	border: 1px #3f3e3c solid;
-	border-radius: 0.5rem;
+	border-radius: 0.3rem;
 	background: #3f3e3c;
 	color: #fcfcfc;
 	font-family: inherit;

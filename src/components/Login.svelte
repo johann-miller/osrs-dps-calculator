@@ -25,14 +25,6 @@
         }).catch(function(error) {
             // An error happened.
         })
-	}
-
-    function getUser() {
-        let user = firebase.auth().currentUser
-
-        if (user) {
-            console.log(user)
-        }
     }
 </script>
 
